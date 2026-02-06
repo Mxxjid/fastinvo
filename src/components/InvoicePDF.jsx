@@ -120,7 +120,7 @@ const InvoicePDF = ({ invoice, sellerInfo }) => {
           </View>
 
           {/* ۳. بخش سمت چپ: شماره و تاریخ (تراز شده به چپ) */}
-          <View style={{ width: "15%", alignItems: "flex-start", gap: 5 }}>
+          <View style={{ width: "25%", alignItems: "flex-start", gap: 5,paddingRight:50, }}>
             <View
               style={{
                 flexDirection: "row-reverse",
